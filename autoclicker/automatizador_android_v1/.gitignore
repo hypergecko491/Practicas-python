@@ -1,0 +1,41 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.pyc
+*.pyo
+
+# ============================================================
+# ARCHIVOS TEMPORALES
+# ============================================================
+
+*.tmp
+*.log
+
+# ============================================================
+# ANDROID PLATFORM-TOOLS
+# No subir los ejecutables de ADB al repositorio
+# ============================================================
+
+adb.exe
+fastboot.exe
+etc1tool.exe
+hprof-conv.exe
+make_f2fs.exe
+make_f2fs_casefold.exe
+mke2fs.exe
+sqlite3.exe
+
+# DLL de Platform-Tools
+AdbWinApi.dll
+AdbWinUsbApi.dll
+libwinpthread-1.dll
+
+# ============================================================
+# OTROS ARCHIVOS DE PLATFORM-TOOLS
+# ============================================================
+
+mke2fs.conf
+source.properties
+NOTICE.txt
